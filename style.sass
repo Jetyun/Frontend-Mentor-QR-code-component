@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap')
+
+*
+  margin:0
+  padding:0
+  box-sizing: border-box
+  font-family: 'Outfit', sans-serif
+  background-color: hsl(212, 45%, 89%)
+  font-size: 15px
+
+$text_color_one:hsl(218, 44%, 22%) //Dark blue
+$text_color_two:hsl(220, 15%, 55%) //Grayish blue
+$background_color_one:hsl(0, 0%, 100%) //white
+$background_color_two:hsl(212, 45%, 89%) //Light gray
+$normal_font_weight: 400
+$bold_font: 700
+
+main
+  display: flex
+  align-items: center
+  justify-content: center
+  margin-top: 100px
+
+  
+
+section
+  background-color: $background_color_one
+  width: 300px
+  height: 450px
+  border-radius: 1.2500em
+
+
+img
+  width: 260px
+  height: 250px
+  border-radius: 1.2500em
+  margin: 20px 0  0 20px
+  
+
+h1
+  font-size: 1.3rem
+  color: $text_color_one
+  text-align: center
+  margin: 20px 20px 0 20px
+  background-color: inherit 
+
+
+p
+  color: $text_color_two
+  text-align: center
+  margin:20px 20px 0  20px
+  background-color: inherit 
+
+
+.attribution  
+  font-size: 11px 
+  text-align: center
+.attribution a 
+  color: hsl(228, 45%, 44%)
+
+@media (min-width: 1440px)
+
+  section
+    width: 360px
+    height: 520px
+  img
+    width: 320px
+    height: 300px
+    margin: 20px 0  0 20px
+
+  h1
+    font-size: 1.7rem
+    text-align: center
+  p
+    text-align: center
+    font-size: 1.1rem
+    margin:20px 50px 0  50px
+    
+
